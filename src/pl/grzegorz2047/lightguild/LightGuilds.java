@@ -1,6 +1,7 @@
 package pl.grzegorz2047.lightguild;
 
 import cn.nukkit.command.Command;
+import cn.nukkit.command.CommandExecutor;
 import cn.nukkit.command.CommandSender;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
@@ -15,7 +16,7 @@ import java.util.LinkedHashMap;
 /**
  * Created by grzegorz2047 on 12.01.2016.
  */
-public class LightGuilds extends PluginBase {
+public class LightGuilds extends PluginBase  {
 
     @Override
     public void onLoad() {

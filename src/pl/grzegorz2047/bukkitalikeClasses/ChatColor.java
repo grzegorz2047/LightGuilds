@@ -1,10 +1,3 @@
-/*
-This class is under http://www.gnu.org/licenses/gpl-3.0.en.html license
-
-
- */
-
-
 package pl.grzegorz2047.bukkitalikeClasses;
 
 
@@ -21,6 +14,10 @@ import org.apache.commons.lang3.Validate;
  */
 public enum ChatColor {
 
+    /*
+    TODO: ADD more colors to nukkit http://minecraftpocketedition.wikia.com/wiki/Minecraft_Pocket_Edition_Wiki:Color_Codes and implement them here
+
+     */
 
     BLACK('0', Color.blackColor),
 

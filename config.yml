@@ -1,0 +1,90 @@
+lang: pl
+mysql:
+  host: "localhost"
+  port: 3306
+  db: "LightGuilds"
+  user: "lightguilds"
+  usertable: "users"
+  guildtable: "guilds"
+  bantable: "bans"
+  relationtable: "relations"
+  tableprefix: "scg_"
+  password: ""
+permissions:
+    vip-permission: "lightguilds.vip"
+stats:
+  points: 10
+protection:
+  spawn-radius: 80
+guild:
+  team-pvp: false
+  home-command: true
+  max-clan-tag: 6
+  min-clan-tag: 3
+  block-on-tnt: true
+  block-tnt-time: 120
+  ally-tag-color: "&2"
+  enemy-tag-color: "4"
+chat:
+  guild-prefix: true
+  prefix: "&7[&aLG&7]&7 "
+blocked-guild-names:
+  - "KUPA"
+  - "ADMIN"
+  - "DUPA"
+  - "FUCK"
+#MAT:DUR:DATA:AMOUNT
+required-items:
+  - "DIAMOND:0:0:64"
+  - "OBSIDIAN:0:0:32"
+  - "ENDER_PEARL:0:0:16"
+  - "TNT:0:0:64"
+  - "GOLDEN_APPLE:0:0:64"
+  - "APPLE:0:0:64"
+  - "SUGAR_CANE:0:0:64"
+  - "BOOKSHELF:0:0:16"
+cuboids:
+  enabled: true
+  radius: 50
+  entry-protection: false
+  damageCuboidItems:
+    - DIAMOND_PICKAXE
+  entry-notify: true
+  entry-sound: true
+  entry-sound-type: "WOLF_BARK"
+teleport:
+  cooldown: 10
+hardcore:
+  enabled: true
+  bantime: "2h"
+  kickmsg: "You are dead! You can join after {TIME}"
+  lightnings: false
+#MAT:DUR:DATA:AMOUNT
+start-items:
+  - STONE_PICKAXE:0:0:1
+  - COOKED_BEEF:0:0:64
+  - ENDER_CHEST:0:0:1
+blocked-worlds:
+  - "world_nether"
+msg-drop-info:
+  - "zelazo: 0%"
+  - "zelazo: 0%"
+  - "zelazo: 0%"
+  - "zelazo: 0%"
+  - "zelazo: 0%"
+  - "zelazo: 0%"
+cobblex-items:
+  - "APPLE:0:0:2"
+  - "APPLE:0:0:3"
+  - "WOOD:0:0:4"
+  - "STONE:0:0:6"
+  - "DIRT:0:0:5"
+cobblex-items-rare:
+  - "DIAMOND:0:0:1"
+  - "GOLDEN_APPLE:0:0:1"
+  - "EMERALD:0:0:1"
+stone-regenerator-delay: 2
+vip-command:
+  - "&7VIP funkctions:"
+  - "&3 -&7 No bans when dead"
+  - "&3 -&7/kit vip command"

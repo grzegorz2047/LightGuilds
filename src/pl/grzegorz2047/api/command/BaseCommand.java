@@ -1,4 +1,4 @@
-package pl.grzegorz2047.api;
+package pl.grzegorz2047.api.command;
 
 /**
  * Created by grzegorz2047 on 12.01.2016.

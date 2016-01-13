@@ -1,0 +1,7 @@
+lightguilds.setworldspawn
+lightguilds.hardcore.bypass
+lightguilds.hardocre.unban
+lightguilds.create.bypass
+lightguilds.cuboid.bypassplace
+lightguilds.cuboid.bypassinteract
+lightguilds.tp.spawn

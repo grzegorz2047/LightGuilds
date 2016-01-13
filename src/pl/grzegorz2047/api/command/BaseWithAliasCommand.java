@@ -1,4 +1,4 @@
-package pl.grzegorz2047.api;
+package pl.grzegorz2047.api.command;
 
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
